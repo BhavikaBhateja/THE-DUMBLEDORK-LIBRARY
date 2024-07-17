@@ -1,0 +1,25 @@
+body{
+    background-image: url("castle3.gif");
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+label{
+    color: orange;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+#demo{
+    color: orange;
+}
+.genre{
+    font-size: large;
+}
+em{
+    color: orange;
+}

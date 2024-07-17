@@ -1,0 +1,32 @@
+body{
+    background-image: url('contact1.webp');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30px 30px;
+
+}
+h1{
+    color: orangered;
+    text-align: center;
+    font-size: 3em;
+}
+.contact{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: orangered;
+    font-size: 2em;
+     margin-top:10px;
+     background-color: black;
+    
+}
+a{
+    color: orangered;
+    text-decoration: none;
+}
+.contact p{
+    display: inline-block;
+    
+}

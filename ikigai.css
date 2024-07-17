@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+   background-size:contain;
+   background-position: 200px 200px;
+   background-repeat: no-repeat;
+}
+li{
+    color: white;
+    font-weight: bold;
+   
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+a{
+    color: orange;
+    font-weight: bolder;
+    font-display: block;
+}

@@ -1,0 +1,85 @@
+#table0 th{
+    font-weight: bolder;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 4.2em;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:white;
+    color:orange;
+  }
+  
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  
+body{
+    background-image: url('use.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+   
+    
+    
+
+}
+#table1 th{
+    font-weight: bold;
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3.7em;
+}
+.downav a{
+    float: left;
+    
+    
+
+}
+
+#table2 th {
+  display: inline-block;
+  font-weight: bold;
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5em;
+}
+#table2 img{
+  border-radius: 50%;
+}
+#table1 table{
+ margin-bottom: -30px;
+}
+#table1 table {
+  border-collapse: separate;
+  border-spacing: 0 1;
+}

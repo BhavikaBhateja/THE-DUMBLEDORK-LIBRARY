@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library</title>
+        <link rel="stylesheet" href="harryform.css">
+    </head>
+    <body>
+        <form action="feedback.html">
+            <fieldset>
+                <div class="form-group">
+                    <label for="name"> Name </label>
+                    <input type="text" required><br><br>
+                    <label for="date of birth">D.O.B</label>
+                    <input type="date" id="datemax" name="datemax" max="2022-01-31"><br><br>
+                    <div class="input">
+                        <label for="12 digit number">Aadhar Card No.</label>
+                        <input type="text" placeholder="12 digit number" required pattern="[0-9]{12}" maxlength="12"
+                            minlength="12"><br><br>
+                    </div>
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div><br><br>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div><br><br>
+                <label for="datemax">Date Of Issue:</label>
+                <input type="date" id="date_of_issue" name="datemax" max="2022-12-31" onchange="handleChange(event)" />
+                    <em> 
+                        *Books should be returned after 20 days from the date of issue
+                    </em>
+                    <br><br>
+                <div id="demo">
+                    <label for="return"> date of Return</label>
+                    <input type="date" id="date_of_return">
+                </div>
+                </div>
+                <label class="Genre" style="text-align:center" ;> Genre </label><br><br>
+                <label> RAVENCLAW</label>
+                <select name="dropdown">
+                    <option value="Odd Apples">Odd Apples</option>
+                    <option value="Late Constable">Late Constable</option>
+                    <option value="Nigeria:Original Cver Art of Nigerian music">Nigeria:Original Cover Art of Nigerian music
+                    </option>
+                    <option value="Geniji: The Prince and The Parodies ">Late Constable</option>
+                    <option value="My Yorkshire: Conversations with Marco Livingstone">My Yorkshire: Conversations with Marco
+                        Livingstone</option>
+                        <option value = "The Merchant Of Venice">The Merchant Of Venice </option>
+                   <option value = "The Turn Of The Screw">The Turn Of The Screw</option>
+                   <option value = "The Adventures Of Sherlock Holmes">The Adventures Of Sherlock Holmes</option>
+                   <option value = "Alice's Adventures in Wonderland">Alice's Adventures in Wonderland</option>
+                   <option value = "Thinking, Fast and Slow">Thinking, Fast and Slow</option>
+                    <option value = "Pide Prejudice">Pide Prejudice</option>
+                        
+                    <option value="no"selected>No</option>
+                </select>
+                <label> Hufflepuff </label>
+                <select name="dropdown">
+                    <option value="The Atomic Habits">The Atomic Habits</option>
+                    <option value="The 5 am Club">The 5 am Clubs</option>
+                    <option value="Rich Dad Poor Dad">Rich Dad Poor Dad</option>
+                    <option value="The Psychology of Money">The Psychology of Money</option>
+                    <option value="Think Like a Monk">Think Like a Monk</option>
+                    <option value="Tuesdays With Morrie">Tuesdays With Morrie</option>
+                    <option value="Ikigai">Ikigai</option>
+                   
+                    <option value="Goodbye Mr. Chips">Goodbye Mr. Chips</option>
+                    <option value="North&South">North&South</option>
+                    <option value="No"selected>No</option>
+                </select>
+                <label> Slytherin </label>
+                <select name="dropdown">
+                    <option value="STATISTICS WITHOUT TEARS BY DEREK ROWNTREE"selected>STATISTICS WITHOUT TEARS BY DEREK ROWNTREE</option>
+                    <option value="The Art of Statistics">The Art of Statistics</option>
+                    <option value="R For Everyone">R For Everyone</option>
+                    <option value="Applied Statistics In Business And Economics">Applied Statistics In Business And Economics</option>
+                    <option value= "A Brief History Of Time">A Brief History Of Time</option>
+                   <option value= "Astrophysics For People In a Hurry">Astrophysics For People In a Hurry</option>
+                    <option value= "Sapiens:A Brief History of Mankind">Sapiens:A Brief History of Mankind</option>
+                    <option value= "The Martian">The Martian</option>
+                    <option value= "What You Should Know About Politics...But Dont">What You Should Know About Politics...But Dont</option>
+                    <option value= "Forensics">Forensics</option>
+                    <option value="No">No</option>
+                </select>
+                <label> Gryffindor </label>
+                <select name="dropdown">
+                    <option value="The Alchemist">The Alchemist</option>
+                    <option value="Philosopher's Stone">Philosophere's Stone</option>
+                    <option value="Chamber of Secrets">Chamber of Secrets</option>
+                    <option value="Prisoner of Azkaban">Prisoner of Azkaban</option>
+                    <option value="Goblet of Fire">Goblet of Fire</option>
+                    <option value="Order of Phoenix">Order of Phoenix</option>
+                    <option value="HAlf-Blood Prince">Half-Blood Prince</option>
+                    <option value="Deathly Hallows">Deathly Hallows</option>
+                    <option value="The Diary of a Young Girl">The Diary of a Young Girl</option>
+                    <option value="Mainsfield Parks">Mansfield Parks</option>
+                    <option value="No"selected>No</option>
+                </select><br><br>
+                <a href="feedback.html">
+                    <button 
+                        type="submit" 
+                        class="btn btn-default"
+                        
+                        >Submit
+                    </button> 
+                </a>
+        </form>
+        <script>
+            const handleChange = (e) => {
+                console.log(e.target.value);
+                document.getElementById('date_of_return').value = e.target.value;
+                document.getElementById('date_of_return').stepUp(20);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    background-image:url('castle3.gif');
+background-size: cover;
+background-color: black;
+background-repeat: no-repeat;
+
+}
+label{
+    color: orange;
+}
+em{
+    color: orange;
+}

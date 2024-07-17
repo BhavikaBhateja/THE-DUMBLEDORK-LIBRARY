@@ -1,0 +1,29 @@
+body{
+    background-image: url('STAIRS1.gif');
+    background-color: black;
+    
+    
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1510px 780px;
+    
+    font-weight: bold;
+}
+h{
+    color:green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5.5em;
+
+}
+a
+{
+    color: white;
+    font-size: 2.2em;
+    text-align: left;
+    font-family:cursive;
+    
+}
+li{
+    color: white;
+}

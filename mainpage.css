@@ -1,0 +1,25 @@
+body{
+    background-image: url('blake-johnson-animation-test.gif');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+    a{
+        text-align: center;
+        color: white;
+        text-size:4em;
+        
+    }
+    h1{
+        text-align: center;
+    text-decoration: white;
+    -webkit-text-size-adjust: 5em;
+    word-spacing:0.7em;
+
+    }
+    
+
+
+    
+
+
+
